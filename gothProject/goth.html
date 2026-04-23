@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Góticas do Brasil - Oficial</title>
+    <style>
+        /* 1. ADICIONANDO FUNDO E ESTILO GERAL */
+        body {
+            background-color: #0d0d0d; /* Fundo preto profundo */
+            background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('image/fundo-dark.jpg'); /* Overlay escuro */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #e0e0e0; /* Texto cinza claro para contraste */
+            font-family: 'Georgia', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        /* 3. EFEITOS VISUAIS */
+        img {
+            border: 3px solid #4a0000; /* Borda vinho/sangue */
+            box-shadow: 0 0 20px #4a0000; /* Brilho sombrio */
+            border-radius: 10px;
+            transition: transform 0.5s, filter 0.5s; /* Suaviza o efeito */
+            cursor: pointer;
+        }
+
+        img:hover {
+            transform: scale(1.05) rotate(1deg); /* Efeito de zoom ao passar o mouse */
+            filter: grayscale(0%); /* Se a imagem for PB, ela ganha cor */
+        }
+
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        a {
+            color: #ff3333;
+            text-decoration: none;
+            font-weight: bold;
+            border: 1px solid #ff3333;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: #ff3333; /* Inverte as cores no hover */
+            color: #000;
+            box-shadow: 0 0 15px #ff3333;
+        }
+    </style>
+</head>
+<body>
+
+    
+
+    <p>OH MEU DEUS!!!!!!!!!!!! aqui se encontram as melhores goticasdobrasiil. venha vêeeeee.</p>
+   
+    <!-- Imagem com interação de clique -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRms5rbxPNnS_lzxD9CUlt6CVUlmtUNsIXSGg&s" alt="Exemplo de Gótica" width="500" height="500" onclick="enviarSaudacao()">
+
+    <p>
+        <a href="https://www.instagram.com/goticasdobrasiil" title="ir para as melhores goticasdobrasiil!" target="_blank">
+            site das melhores goticasdobrasiil!!
+        </a>
+    </p>
+
+    <!-- 2. MENSAGENS DE INTERAÇÃO (JavaScript) -->
+    <script>
+        function enviarSaudacao() {
+            // Alerta personalizado ao clicar na imagem
+            alert("Bem-vinda ao lado sombrio! 🦇");
+        }
+
+        // Mensagem de boas-vindas ao carregar a página
+        window.onload = function() {
+            console.log("Portal das Góticas carregado com sucesso.");
+        };
+    </script>
+
+</body>
+</html>
