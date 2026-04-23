@@ -1,0 +1,19 @@
+.conteiner{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: darkred;
+    flex-wrap: wrap-reverse;
+    border: solid snow;
+    box-shadow: 7px 7px 7px;
+}
+
+
+.caixa{
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 7px 7px 7px red;
+}

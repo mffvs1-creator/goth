@@ -10,20 +10,28 @@
 .caixa{
     width: 100px;
     height: 100px;
-    background-color: blue;
-    color: blue;
+    background-color: darkgray;
+    color: black;
     border: 1px solid black;
-    box-shadow: 5px 5px 5px rgba(0, green, blue, alpha);S
+    box-shadow: 5px 5px 5px black;
 }
 
-.conatiner-2{
+
+.conteiner-2{
     display: flex;
     width: 200px;
     height: 100vh;
     flex-direction: column;
+    background-color: blueviolet;
+    color: darkred;
 }
 
 .caixa_vermelha{
-
-
+    display: flex;
+    width: 200px;
+    height: 100vh;
+    flex-direction: column;
+    background-color: crimson;
+    color: black;
+    border: 1px solid black;
 }
